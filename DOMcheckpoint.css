@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+}
+  
+h2 {
+  padding: 0;
+  margin: 0;
+}
+  
+.container {
+  margin: 40px
+}
+  
+.shopping-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.title h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+  
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+  
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+  
+.productColumn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 220px;
+  border-bottom: 1px solid #eee;
+}
+  
+.productColumn:hover {
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01)
+}
+  
+.productName {
+  float: left;
+  width: 23%;
+}
+  
+.procuctDetails {
+  padding-left: 30px;
+  padding-right: 10px;
+  width: 27%;
+  }
+  
+.price {
+  padding-left: 30px;
+  width: 25%;
+}
+  
+.total {
+  padding-left: 30px;
+  width: 25%;
+}
+  
+.quantity {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 25%;
+}
+  
+.quantityButton {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E1E8EE;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.02);
+}
+  
+.quantityButton span {
+  width: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+  
+.quantityButton span num {
+  font-size: 30px;
+  border-right: 2px solid rgba(136, 0, 0, 0.2);
+  border-left: 2px solid rgba(136, 0, 0, 0.2);
+  pointer-events: none;
+}
+  
+.tableHeader h2 {
+  color: rgb(136, 0, 0);
+}
+  
+.productColumn p {
+  font-size: 25px;
+}
+  
+.procuctDetails h2 {
+  font-size: 18px;
+}
+  
+.remove {
+  display: flex;
+  justify-content: center;
+  width: 18%;
+}
+  
+.removeBtn {
+  padding: 10px 16px;
+  height: 45px;
+  background-color: rgb(139, 0, 0);
+  color: #fff;
+  font-size: medium;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+  
+.remove i {
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 27px;
+  color: rgb(139, 0, 0);
+}
+  
+.finalTotal {
+  margin: 50px;
+  float: right;
+}
